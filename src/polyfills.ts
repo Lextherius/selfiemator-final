@@ -62,3 +62,5 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  * APPLICATION IMPORTS
  */
 import 'webrtc-adapter';
+import 'zone.js/dist/webapis-rtc-peer-connection';
+import 'zone.js/dist/zone-patch-user-media';

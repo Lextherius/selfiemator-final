@@ -7,6 +7,8 @@ import { Subscription } from 'rxjs';
 import { ConnectionService } from '../connection.service';
 import { MatSnackBar } from '@angular/material';
 
+import 'webrtc-adapter';
+
 @Component({
   selector: 'app-capture',
   templateUrl: './capture.component.html',
